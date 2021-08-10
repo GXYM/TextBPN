@@ -1,2 +1,2 @@
 # TextBPN
-Code will come soon!
+Code will come soon! Please wait patiently!
