@@ -23,7 +23,7 @@ run:
 ```
 sh eval.sh
 ```
-The details in a are as follows:  
+The details are as follows:  
 ```
 #!/bin/bash
 ##################### Total-Text ###################################
