@@ -2,7 +2,7 @@
 Adaptive Boundary Proposal Network for Arbitrary Shape Text Detection； Accepted by ICCV2021.  
   Note: The complete code (including training and testing) will be released in TextBPN V2. Relevant work is advancing, and those who are interested in our work
 can pay more attention to the updates here.
-[](https://github.com/GXYM/TextBPN/blob/main/vis/1.png)
+![](https://github.com/GXYM/TextBPN/blob/main/vis/1.png)
 ## 1.Prerequisites  t
   python 3.9;  
   PyTorch 1.7.0;   
@@ -43,7 +43,7 @@ CUDA_LAUNCH_BLOCKING=1 python eval_textBPN.py --exp_name Totaltext --checkepoch 
 
 ```  
 ## 5.Experiments results
-[](https://github.com/GXYM/TextBPN/blob/main/vis/2.png)
-[](https://github.com/GXYM/TextBPN/blob/main/vis/3.png)
+![](https://github.com/GXYM/TextBPN/blob/main/vis/2.png)
+![](https://github.com/GXYM/TextBPN/blob/main/vis/3.png)
 
 
