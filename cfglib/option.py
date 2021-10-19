@@ -30,7 +30,7 @@ class BaseOptions(object):
         self.parser.add_argument('--exp_name', default="Totaltext", type=str,
                                  choices=['Synthtext', 'Totaltext', 'Ctw1500',
                                           'Icdar2015', "MLT2017", 'TD500'], help='Experiment name')
-        self.parser.add_argument("--gpu", default="0", help="set gpu id", type=str)
+        self.parser.add_argument("--gpu", default="1", help="set gpu id", type=str)
         self.parser.add_argument('--resume', default=None, type=str, help='Path to target resume checkpoint')
         self.parser.add_argument('--num_workers', default=8, type=int, help='Number of workers used in dataloading')
         self.parser.add_argument('--cuda', default=True, type=str2bool, help='Use cuda to train model')
@@ -58,25 +58,26 @@ class BaseOptions(object):
         self.parser.add_argument('--optim', default='Adam', type=str, choices=['SGD', 'Adam'], help='Optimizer')
         self.parser.add_argument('--save_freq', default=5, type=int, help='save weights every # epoch')
         self.parser.add_argument('--display_freq', default=10, type=int, help='display training metrics every # iter')
-        self.parser.add_argument('--viz_freq', default=100, type=int, help='visualize training process every # iter')
+        self.parser.add_argument('--viz_freq', default=50, type=int, help='visualize training process every # iter')
         self.parser.add_argument('--log_freq', default=10000, type=int, help='log to tensorboard every # iterations')
         self.parser.add_argument('--val_freq', default=1000, type=int, help='do validation every # iterations')
 
         # data set
         self.parser.add_argument('--net', default='resnet50', type=str,
-                                 choices=['vgg', 'vgg_bn', 'resnet50', 'resnet101'],
+                                 choices=['vgg', 'resnet18', 'resnet50',
+                                 "deformable_resnet18","deformable_resnet50"],
                                  help='Network architecture')
         # data args
         self.parser.add_argument('--rescale', type=float, default=255.0, help='rescale factor')
         self.parser.add_argument('--means', type=int, default=(0.485, 0.456, 0.406), nargs='+', help='mean')
         self.parser.add_argument('--stds', type=int, default=(0.229, 0.224, 0.225), nargs='+', help='std')
         self.parser.add_argument('--input_size', default=640, type=int, help='model input size')
-        self.parser.add_argument('--test_size', default=(640, 1024), type=tuple, help='model input size')
+        self.parser.add_argument('--test_size', default=[640, 1024], type=int, nargs='+', help='test size')
 
         # eval args00
-        self.parser.add_argument('--checkepoch', default=115, type=int, help='Load checkpoint number')
+        self.parser.add_argument('--checkepoch', default=590, type=int, help='Load checkpoint number')
         self.parser.add_argument('--start_epoch', default=0, type=int, help='start epoch number')
-        self.parser.add_argument('--cls_threshold', default=0.8, type=float, help='threshold of pse')
+        self.parser.add_argument('--cls_threshold', default=0.875, type=float, help='threshold of pse')
         # self.parser.add_argument('--dis_th', default=0.5, type=float, help='threshold of pse')
         self.parser.add_argument('--dis_threshold', default=0.3, type=float, help='filter the socre < score_i')
 
