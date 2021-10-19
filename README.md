@@ -1,5 +1,5 @@
 # TextBPN
-Arbitrary Shape Text Detection in Scene Images  
+Adaptive Boundary Proposal Network for Arbitrary Shape Text Detection； Accepted by ICCV2021
 ## 1.Prerequisites  
   python 3.9;  
   PyTorch 1.7.0;   
