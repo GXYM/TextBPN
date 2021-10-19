@@ -1,6 +1,6 @@
 # TextBPN
 Adaptive Boundary Proposal Network for Arbitrary Shape Text Detection； Accepted by ICCV2021.  
-Note: The complete code (including training and testing) will be released in TextBPN V2. Relevant work is advancing, and those who are interested in our work
+  Note: The complete code (including training and testing) will be released in TextBPN V2. Relevant work is advancing, and those who are interested in our work
 can pay more attention to the updates here.
 ## 1.Prerequisites  t
   python 3.9;  
