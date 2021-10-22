@@ -18,9 +18,9 @@ can pay more attention to the updates here.
 3. [Total-Text](https://drive.google.com/file/d/17_7T_-2Bu3KSSg2OkXeCxj97TBsjvueC/view?usp=sharing) 
 
 ## 3.Models
- *  [Total-Text model](https://drive.google.com/file/d/1DMDh3VAHDy0uVd5EgOWA_zstiScTXJvG/view?usp=sharing) (pretrained on ICDAR2017-MLT)
- *  [CTW-1500 model](https://drive.google.com/file/d/1PsIIT4vwdF_tmvw6siWLdf5LbUGfYY99/view?usp=sharing) (pretrained on ICDAR2017-MLT)
- *  [MSRA-TD500 model](https://drive.google.com/file/d/1o8oYWRjZNdSODU1oq18aBroPSCC8kt-G/view?usp=sharing) (pretrained on ICDAR2017-MLT)  
+ *  [Total-Text model](https://drive.google.com/file/d/13ZrWfpv2dJqdv0cDf-hE0n5JQegNY0-i/view?usp=sharing) (pretrained on ICDAR2017-MLT)
+ *  [CTW-1500 model](https://drive.google.com/file/d/13ZrWfpv2dJqdv0cDf-hE0n5JQegNY0-i/view?usp=sharing) (pretrained on ICDAR2017-MLT)
+ *  [MSRA-TD500 model](https://drive.google.com/file/d/13ZrWfpv2dJqdv0cDf-hE0n5JQegNY0-i/view?usp=sharing) (pretrained on ICDAR2017-MLT)  
 
 ## 4.Running Evaluation
 run:  
