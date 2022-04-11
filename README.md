@@ -3,6 +3,9 @@ Adaptive Boundary Proposal Network for Arbitrary Shape Text Detection； Accepte
 ![](https://github.com/GXYM/TextBPN/blob/main/vis/1.png)  
 
 Note: We released our training script in advance because we received a lot of emails. At present, the codes and paper of TextBPN++ are basically completed, and we will release them in the next few months. Relevant work is advancing, and those who are interested in our work can pay more attention to the updates here.
+
+the codes and ppaper of TextBPN++ will be released at:[TextBPN-Puls-Plus](https://github.com/GXYM/TextBPN-Puls-Plus)
+
 ## 1.Prerequisites  t
   python 3.9;  
   PyTorch 1.7.0;   
