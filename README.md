@@ -9,7 +9,8 @@ The codes and ppaper of TextBPN++ will be released at:[TextBPN-Puls-Plus](https:
   PyTorch 1.7.0;   
   Numpy >=1.2.0   
   CUDA 11.1;  
-  GCC >=10.0;   
+  GCC >=10.0;  
+  *opencv-python < 4.5.0*  
   NVIDIA GPU(with 11G or larger GPU memory for inference);  
 
 ## 2.Dataset Links  
