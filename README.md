@@ -4,7 +4,7 @@ Adaptive Boundary Proposal Network for Arbitrary Shape Text Detection； Accepte
 
 The codes and paper of TextBPN++ will be released at:[TextBPN-Puls-Plus](https://github.com/GXYM/TextBPN-Puls-Plus)
 
-## 1.Prerequisites  t
+## 1.Prerequisites 
   python 3.9;  
   PyTorch 1.7.0;   
   Numpy >=1.2.0   
