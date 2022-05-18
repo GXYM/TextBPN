@@ -2,7 +2,7 @@
 Adaptive Boundary Proposal Network for Arbitrary Shape Text Detection； Accepted by ICCV2021.  
 ![](https://github.com/GXYM/TextBPN/blob/main/vis/1.png)  
 
-The codes and paper of TextBPN++ has been released at:[TextBPN-Puls-Plus](https://github.com/GXYM/TextBPN-Puls-Plus)
+The codes and paper of TextBPN++ have been released at:[TextBPN-Puls-Plus](https://github.com/GXYM/TextBPN-Puls-Plus)
 
 ## 1.Prerequisites 
   python 3.9;  
