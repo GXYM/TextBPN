@@ -48,4 +48,31 @@ CUDA_LAUNCH_BLOCKING=1 python eval_textBPN.py --exp_name Totaltext --checkepoch 
 ![](https://github.com/GXYM/TextBPN/blob/main/vis/2.png)
 ![](https://github.com/GXYM/TextBPN/blob/main/vis/3.png)
 
+## Citing the related works
+
+Please cite the related works in your publications if it helps your research:
+``` 
+  @inproceedings{DBLP:conf/iccv/Zhang0YWY21,
+  author    = {Shi{-}Xue Zhang and
+               Xiaobin Zhu and
+               Chun Yang and
+               Hongfa Wang and
+               Xu{-}Cheng Yin},
+  title     = {Adaptive Boundary Proposal Network for Arbitrary Shape Text Detection},
+  booktitle = {2021 {IEEE/CVF} International Conference on Computer Vision, {ICCV} 2021, Montreal, QC, Canada, October 10-17, 2021},
+  pages     = {1285--1294},
+  publisher = {{IEEE}},
+  year      = {2021},
+}
+
+@inproceedings{Zhang2022ArbitraryST,
+  title={Arbitrary Shape Text Detection via Boundary Transformer},
+  author={S. Zhang and Xiaobin Zhu and Chun Yang and Xu-Cheng Yin},
+  year={2022}
+}
+  ``` 
+ 
+ ## License
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/GXYM/DRRG/blob/master/LICENSE.md) file for details
+
 
