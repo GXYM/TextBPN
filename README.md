@@ -2,7 +2,9 @@
 Adaptive Boundary Proposal Network for Arbitrary Shape Text Detection； Accepted by ICCV2021.  
 ![](https://github.com/GXYM/TextBPN/blob/main/vis/1.png)  
 
-The codes and paper of TextBPN++ have been released at:[TextBPN-Puls-Plus](https://github.com/GXYM/TextBPN-Puls-Plus)
+The codes and paper of TextBPN++ have been released at:[TextBPN-Puls-Plus](https://github.com/GXYM/TextBPN-Puls-Plus). 
+
+NOTE：TextBPN++ contained the code of TextBPN，so it is recommended to refer to code in [TextBPN-Puls-Plus](https://github.com/GXYM/TextBPN-Puls-Plus).
 
 ## 1.Prerequisites 
   python 3.9;  
@@ -16,7 +18,9 @@ The codes and paper of TextBPN++ have been released at:[TextBPN-Puls-Plus](https
 ## 2.Dataset Links  
 1. [CTW1500](https://drive.google.com/file/d/1A2s3FonXq4dHhD64A2NCWc8NQWMH2NFR/view?usp=sharing)   
 2. [TD500](https://drive.google.com/file/d/1ByluLnyd8-Ltjo9AC-1m7omZnI-FA1u0/view?usp=sharing)  
-3. [Total-Text](https://drive.google.com/file/d/17_7T_-2Bu3KSSg2OkXeCxj97TBsjvueC/view?usp=sharing) 
+3. [Total-Text](https://drive.google.com/file/d/17_7T_-2Bu3KSSg2OkXeCxj97TBsjvueC/view?usp=sharing)   
+
+NOTE: The images of each dataset can be obtained from their official website.
 
 ## 3.Models
  *  [Total-Text model](https://drive.google.com/file/d/13ZrWfpv2dJqdv0cDf-hE0n5JQegNY0-i/view?usp=sharing) (pretrained on ICDAR2017-MLT)
